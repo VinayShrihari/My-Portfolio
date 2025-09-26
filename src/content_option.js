@@ -1,3 +1,6 @@
+import foodie from './assets/images/foodie.png';
+import news from './assets/images/news.png';
+import pharmacy from './assets/images/pharmacy.png'
 const logotext = "Vinay Shrihari";
 const meta = {
     title: "Vinay Shrihari",
@@ -16,8 +19,8 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About Myself",
+    aboutme: "👋 Hey, I’m Vinay! I love coding and crafting smooth, responsive websites. With React and Tailwind, I bring ideas to life on the web, and I’m constantly learning new tools to become a full-stack developer.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -73,65 +76,19 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: foodie,
+        description: "Tech Stack: HTML, CSS, JavaScript, React, Tailwind CSS (customize as needed)",
+        link: "https://reastraunt-web-template.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: news,
+        description: "Tech Stack: React, News API, Axios, Tailwind CSS",
+        link: "https://news-api-1pub.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: pharmacy,
+        description: "Tech Stack: React, Node.js, Express, MongoDB",
+        link: "https://pharmacy-management-black.vercel.app/",
     },
 ];
 
