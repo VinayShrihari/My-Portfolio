@@ -4,8 +4,8 @@ import pharmacy from './assets/images/pharmacy.png'
 const logotext = "Vinay Shrihari";
 const meta = {
     title: "Vinay Shrihari",
-    description: "I’m Vinay shrihari frontend enthusiast _ Full stack devloper,currently working in Berlin",
-};ea
+    description: "I’m Vinay shrihari frontend enthusiast _ Full stack devloper,currently studying in Mysuru",
+}
 
 const introdata = {
     title: "I am Vinay",
@@ -22,22 +22,6 @@ const dataabout = {
     title: "About Myself",
     aboutme: "👋 Hey, I’m Vinay! I love coding and crafting smooth, responsive websites. With React and Tailwind, I bring ideas to life on the web, and I’m constantly learning new tools to become a full-stack developer.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
 
 const skills = [{
         name: "Python",
@@ -111,7 +95,6 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
     services,
     introdata,
